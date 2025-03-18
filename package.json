@@ -1,0 +1,21 @@
+{
+  "name": "vscode-gnome2like-theme",
+  "displayName": "vscode-gnome2like-theme",
+  "description": "A color theme based on the `color-theme-gnome2` from Emacs color-theme.el package",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.98.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "gnome2like",
+        "uiTheme": "vs-dark",
+        "path": "./themes/gnome2like.json"
+      }
+    ]
+  }
+}
