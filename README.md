@@ -9,7 +9,9 @@ I added more colors to meet VSCode's requirements while keeping the original Gno
 
 ## License
 
-GPL-3.0. This is a derivative work based on the gnome2 theme from color-theme.el:
+GPL-3.0. This is a derivative work based on the gnome2 theme from color-theme.el.
+
+### Original color-theme.el authors:
 
 - Copyright (C) 1999-2000 Jonadab the Unsightly One
 - Copyright (C) 2000-2003 Alex Schroeder
@@ -17,3 +19,6 @@ GPL-3.0. This is a derivative work based on the gnome2 theme from color-theme.el
 - Copyright (C) 2019 Drew Adams
 
 Original package: [color-theme.el](https://www.emacswiki.org/emacs/download/color-theme.el)
+
+### This theme authors:
+- Copyrights (C) 2025 pokutuna
