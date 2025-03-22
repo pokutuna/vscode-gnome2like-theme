@@ -7,10 +7,14 @@
     "Themes"
   ],
   "license": "GPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pokutuna/vscode-gnome2like-theme"
+  },
   "contributes": {
     "themes": [
       {
-        "label": "gnome2like",
+        "label": "Gnome2like",
         "uiTheme": "vs-dark",
         "path": "./themes/gnome2like.json"
       }
