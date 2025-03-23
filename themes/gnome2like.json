@@ -564,35 +564,6 @@
 			}
 		},
 		{
-			"name": "Arrays and Lists",
-			"scope": [
-				"meta.array",
-				"meta.sequence",
-				"meta.brackets",
-				"punctuation.definition.array",
-				"punctuation.definition.list",
-				"punctuation.section.brackets"
-			],
-			"settings": {
-				"foreground": "#FFFF00"
-			}
-		},
-		{
-			"name": "Maps, Objects and Dictionaries",
-			"scope": [
-				"meta.object",
-				"meta.objectliteral",
-				"meta.mapping",
-				"punctuation.definition.dictionary",
-				"punctuation.definition.object",
-				"punctuation.section.block",
-				"punctuation.section.braces"
-			],
-			"settings": {
-				"foreground": "#FFFFFF"
-			}
-		},
-		{
 			"name": "Punctuation",
 			"scope": [
 				"punctuation.separator",
