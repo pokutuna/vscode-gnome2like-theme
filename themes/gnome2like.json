@@ -123,6 +123,12 @@
 		"minimap.findMatchHighlight": "#7FFFD480",
 		"minimap.selectionHighlight": "#008B8B80",
 		"minimap.warningHighlight": "#FFA07A80",
+		"notificationCenter.border": "#008B8B",
+		"notificationCenterHeader.background": "#2A4545",
+		"notificationToast.border": "#008B8B",
+		"notifications.background": "#2F4F4F",
+		"notifications.border": "#008B8B",
+		"notifications.foreground": "#F5DEB3",
 		"panelTitle.activeForeground": "#F5DEB3",
 		"panelTitle.inactiveForeground": "#F5DEB380",
 		"peekView.border": "#7FFFD4",
@@ -601,37 +607,37 @@
 		// Types
 		"class": {
 			"foreground": "#9ACD32",
-			"bold": true,
+			"bold": true
 		},
 		"class.defaultLibrary": {
 			"foreground": "#98FB98",
-			"bold": true,
+			"bold": true
 		},
 		"interface": {
-			"foreground": "#9ACD32",
+			"foreground": "#9ACD32"
 		},
 		"enum": {
 			"foreground": "#9ACD32",
-			"bold": true,
+			"bold": true
 		},
 		"struct": {
 			"foreground": "#9ACD32",
-			"bold": true,
+			"bold": true
 		},
 		"typeParameter": {
-			"foreground": "#9ACD32",
+			"foreground": "#9ACD32"
 		},
 		"type": {
 			"foreground": "#9ACD32",
-			"bold": true,
+			"bold": true
 		},
 		"type.defaultLibrary": {
 			"foreground": "#98FB98",
-			"bold": true,
+			"bold": true
 		},
 		// Variables & Properties
 		"variable": {
-			"foreground": "#7FFFD4",
+			"foreground": "#7FFFD4"
 		},
 		"variable.readonly": {
 			"foreground": "#98FB98"
@@ -656,14 +662,14 @@
 		},
 		// Functions & Methods
 		"function": {
-			"foreground": "#F5DEB3",
+			"foreground": "#F5DEB3"
 		},
 		"function.defaultLibrary": {
 			"foreground": "#98FB98",
 			"bold": true
 		},
 		"method": {
-			"foreground": "#7FFFD4",
+			"foreground": "#7FFFD4"
 		},
 		"method.static": {
 			"foreground": "#7FFFD4",
@@ -699,7 +705,7 @@
 			"foreground": "#FA8072"
 		},
 		"comment": {
-			"foreground": "#ADD8E6",
+			"foreground": "#ADD8E6"
 		},
 		// States
 		"*.deprecated": {
@@ -711,7 +717,7 @@
 			"fontStyle": "italic"
 		},
 		"*.async": {
-			"foreground": "#98FB98",
+			"foreground": "#98FB98"
 		},
 		"boolean": {
 			"foreground": "#7FFFD4",
@@ -721,18 +727,24 @@
 			"foreground": "#98FB98",
 			"bold": true
 		},
-		"label": "#7FFFD4",
-		"modifier": "#FA8072",
-		"character": "#7FFFD4",
+		"label": {
+			"foreground": "#7FFFD4"
+		},
+		"modifier": {
+			"foreground": "#FA8072"
+		},
+		"character": {
+			"foreground": "#7FFFD4"
+		},
 		"intrinsic": {
 			"foreground": "#FA8072",
 			"bold": true
 		},
 		"selfParameter": {
-			"foreground": "#FA8072",
+			"foreground": "#FA8072"
 		},
 		"clsParameter": {
-			"foreground": "#FA8072",
+			"foreground": "#FA8072"
 		},
 		"builtinType": {
 			"foreground": "#9ACD32",
@@ -745,9 +757,15 @@
 		"lifetime": {
 			"foreground": "#FA8072"
 		},
-		"escapeSequence": "#FFFFFF",
-		"formatSpecifier": "#7FFFD4",
-		"*.reference": "#98FB98",
+		"escapeSequence": {
+			"foreground": "#FFFFFF"
+		},
+		"formatSpecifier": {
+			"foreground": "#7FFFD4"
+		},
+		"*.reference": {
+			"foreground": "#98FB98"
+		},
 		"*.static": {
 			"foreground": "#7FFFD4"
 		},
@@ -763,6 +781,6 @@
 		},
 		"*.templateExpression": {
 			"foreground": "#98FB98"
-		},
+		}
 	}
 }
