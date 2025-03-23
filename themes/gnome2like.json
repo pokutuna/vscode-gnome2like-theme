@@ -214,7 +214,7 @@
 				"comment.documentation"
 			],
 			"settings": {
-				"foreground": "#FFA07A",
+				"foreground": "#FFA07A"
 			}
 		},
 		{
@@ -235,6 +235,7 @@
 			"scope": [
 				"keyword",
 				"keyword.control",
+				"keyword.other",
 				"storage",
 				"storage.type",
 				"storage.modifier"
@@ -253,10 +254,12 @@
 			}
 		},
 		{
-			"name": "Preprocessor",
+			"name": "Preprocessor Directives",
 			"scope": [
 				"entity.name.function.preprocessor",
-				"meta.preprocessor"
+				"meta.preprocessor",
+				"keyword.control.directive",
+				"keyword.control.import"
 			],
 			"settings": {
 				"foreground": "#FA8072"
@@ -293,6 +296,16 @@
 			}
 		},
 		{
+			"name": "Builtin Functions",
+			"scope": [
+				"support.function.builtin"
+			],
+			"settings": {
+				"foreground": "#98FB98",
+				"fontStyle": "bold"
+			}
+		},
+		{
 			"name": "Classes, Types & Interfaces",
 			"scope": [
 				"entity.name.type",
@@ -310,7 +323,8 @@
 			"name": "Namespaces & Modules",
 			"scope": [
 				"entity.name.namespace",
-				"entity.name.module"
+				"entity.name.module",
+				"entity.name.package"
 			],
 			"settings": {
 				"foreground": "#9ACD32"
@@ -343,7 +357,8 @@
 				"support.type.property-name.css",
 				"support.type.property-name.scss",
 				"support.type.property-name.less",
-				"support.type.property-name.sass"
+				"support.type.property-name.sass",
+				"entity.other.attribute-name.class"
 			],
 			"settings": {
 				"foreground": "#7FFFD4"
@@ -358,6 +373,16 @@
 			],
 			"settings": {
 				"foreground": "#FFA07A"
+			}
+		},
+		{
+			"name": "CSS Classes and IDs",
+			"scope": [
+				"entity.other.attribute-name.class.css",
+				"entity.other.attribute-name.id.css"
+			],
+			"settings": {
+				"foreground": "#7FFFD4"
 			}
 		},
 		{
@@ -525,6 +550,7 @@
 		"string": "#FFA07A",
 		"number": "#7FFFD4",
 		"regexp": "#FFA07A",
+		"boolean": "#7FFFD4",
 		"keyword": "#FA8072",
 		"operator": "#FA8072",
 		"namespace": "#9ACD32",
@@ -551,6 +577,10 @@
 		},
 		"typeParameter": "#9ACD32",
 		"function": {
+			"foreground": "#98FB98",
+			"bold": true
+		},
+		"member": {
 			"foreground": "#98FB98",
 			"bold": true
 		},
@@ -585,6 +615,47 @@
 			"bold": true
 		},
 		"label": "#7FFFD4",
-		"modifier": "#FA8072"
+		"modifier": "#FA8072",
+		"character": "#7FFFD4",
+		"module": "#9ACD32",
+		"intrinsic": {
+			"foreground": "#FA8072",
+			"bold": true
+		},
+		"selfParameter": {
+			"foreground": "#FA8072",
+			"italic": true
+		},
+		"builtinType": {
+			"foreground": "#9ACD32",
+			"bold": true
+		},
+		"lifetime": {
+			"foreground": "#FA8072",
+			"italic": true
+		},
+		"escapeSequence": "#7FFFD4",
+		"formatSpecifier": "#7FFFD4",
+		"*.reference": "#98FB98",
+		"*.readonly": {
+			"italic": true
+		},
+		"*.defaultLibrary": {
+			"foreground": "#98FB98"
+		},
+		"*.static": {
+			"foreground": "#7FFFD4"
+		},
+		"*.async": {
+			"foreground": "#98FB98",
+			"italic": true
+		},
+		"*.abstract": {
+			"italic": true
+		},
+		"*.unsafe": {
+			"foreground": "#FA8072",
+			"italic": true
+		}
 	}
 }
