@@ -192,6 +192,28 @@
 	},
 	"tokenColors": [
 		{
+			"name": "Python Special Constants",
+			"scope": [
+				"constant.language.python"
+			],
+			"settings": {
+				"foreground": "#7FFFD4",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Python Self and Cls",
+			"scope": [
+				"variable.language.special.self.python",
+				"variable.parameter.function.language.special.self.python",
+				"variable.language.special.cls.python",
+				"variable.parameter.function.language.special.cls.python"
+			],
+			"settings": {
+				"foreground": "#FA8072",
+			}
+		},
+		{
 			"name": "Comment",
 			"scope": [
 				"comment",
@@ -621,9 +643,6 @@
 		},
 		"typeParameter": "#9ACD32",
 		"function": {
-			"foreground": "#98FB98"
-		},
-		"member": {
 			"foreground": "#98FB98"
 		},
 		"method": {
