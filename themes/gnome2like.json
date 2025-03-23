@@ -326,8 +326,7 @@
 				"support.variable"
 			],
 			"settings": {
-				"foreground": "#7FFFD4",
-				"fontStyle": "bold"
+				"foreground": "#7FFFD4"
 			}
 		},
 		{
@@ -342,8 +341,7 @@
 				"meta.method"
 			],
 			"settings": {
-				"foreground": "#98FB98",
-				"fontStyle": "bold"
+				"foreground": "#98FB98"
 			}
 		},
 		{
@@ -609,42 +607,34 @@
 			"bold": true
 		},
 		"struct": {
-			"foreground": "#9ACD32",
-			"bold": true
+			"foreground": "#9ACD32"
 		},
 		"class": {
 			"foreground": "#9ACD32",
 			"bold": true
 		},
 		"interface": {
-			"foreground": "#9ACD32",
-			"bold": true
+			"foreground": "#9ACD32"
 		},
 		"enum": {
-			"foreground": "#9ACD32",
-			"bold": true
+			"foreground": "#9ACD32"
 		},
 		"typeParameter": "#9ACD32",
 		"function": {
-			"foreground": "#98FB98",
-			"bold": true
+			"foreground": "#98FB98"
 		},
 		"member": {
-			"foreground": "#98FB98",
-			"bold": true
+			"foreground": "#98FB98"
 		},
 		"method": {
-			"foreground": "#98FB98",
-			"bold": true
+			"foreground": "#98FB98"
 		},
 		"property": "#7FFFD4",
 		"variable": {
-			"foreground": "#7FFFD4",
-			"bold": true
+			"foreground": "#7FFFD4"
 		},
 		"parameter": {
-			"foreground": "#7FFFD4",
-			"bold": true
+			"foreground": "#7FFFD4"
 		},
 		"macro": "#FA8072",
 		"decorator": {
