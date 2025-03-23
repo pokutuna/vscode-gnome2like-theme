@@ -188,8 +188,7 @@
 				"punctuation.definition.comment"
 			],
 			"settings": {
-				"foreground": "#ADD8E6",
-				"fontStyle": "italic"
+				"foreground": "#ADD8E6"
 			}
 		},
 		{
@@ -256,8 +255,7 @@
 				"comment.documentation"
 			],
 			"settings": {
-				"foreground": "#FFA07A",
-				"fontStyle": "italic"
+				"foreground": "#FFA07A"
 			}
 		},
 		{
@@ -587,8 +585,7 @@
 	],
 	"semanticTokenColors": {
 		"comment": {
-			"foreground": "#ADD8E6",
-			"italic": true
+			"foreground": "#ADD8E6"
 		},
 		"string": "#FFA07A",
 		"number": "#7FFFD4",
@@ -611,8 +608,7 @@
 		},
 		"interface": {
 			"foreground": "#9ACD32",
-			"bold": true,
-			"italic": true
+			"bold": true
 		},
 		"enum": {
 			"foreground": "#9ACD32",
@@ -667,21 +663,20 @@
 		},
 		"selfParameter": {
 			"foreground": "#FA8072",
-			"italic": true
+			"bold": true
 		},
 		"builtinType": {
 			"foreground": "#9ACD32",
 			"bold": true
 		},
 		"lifetime": {
-			"foreground": "#FA8072",
-			"italic": true
+			"foreground": "#FA8072"
 		},
 		"escapeSequence": "#7FFFD4",
 		"formatSpecifier": "#7FFFD4",
 		"*.reference": "#98FB98",
 		"*.readonly": {
-			"italic": true
+			"foreground": "#7FFFD4"
 		},
 		"*.defaultLibrary": {
 			"foreground": "#98FB98"
@@ -690,15 +685,14 @@
 			"foreground": "#7FFFD4"
 		},
 		"*.async": {
-			"foreground": "#98FB98",
-			"italic": true
+			"foreground": "#98FB98"
 		},
 		"*.abstract": {
-			"italic": true
+			"foreground": "#FA8072"
 		},
 		"*.unsafe": {
-			"foreground": "#FA8072",
-			"italic": true
+			"foreground": "#FF0000",
+			"bold": true
 		},
 		"*.interpolation": {
 			"foreground": "#98FB98"
