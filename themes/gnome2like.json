@@ -192,28 +192,6 @@
 	},
 	"tokenColors": [
 		{
-			"name": "Python Special Constants",
-			"scope": [
-				"constant.language.python"
-			],
-			"settings": {
-				"foreground": "#7FFFD4",
-				"fontStyle": "bold"
-			}
-		},
-		{
-			"name": "Python Self and Cls",
-			"scope": [
-				"variable.language.special.self.python",
-				"variable.parameter.function.language.special.self.python",
-				"variable.language.special.cls.python",
-				"variable.parameter.function.language.special.cls.python"
-			],
-			"settings": {
-				"foreground": "#FA8072",
-			}
-		},
-		{
 			"name": "Comment",
 			"scope": [
 				"comment",
@@ -266,7 +244,7 @@
 				"string.interpolated.python"
 			],
 			"settings": {
-				"foreground": "#98FB98"
+				"foreground": "#FFFFFF"
 			}
 		},
 		{
@@ -653,10 +631,16 @@
 		},
 		"selfParameter": {
 			"foreground": "#FA8072",
-			"bold": true
+		},
+		"clsParameter": {
+			"foreground": "#FA8072",
 		},
 		"builtinType": {
 			"foreground": "#9ACD32",
+			"bold": true
+		},
+		"constant.builtin": {
+			"foreground": "#7FFFD4",
 			"bold": true
 		},
 		"lifetime": {
