@@ -198,9 +198,51 @@
 				"string",
 				"string.quoted",
 				"string.quoted.single",
-				"string.quoted.double",
+				"string.quoted.double"
+			],
+			"settings": {
+				"foreground": "#FFA07A"
+			}
+		},
+		{
+			"name": "Template Strings",
+			"scope": [
 				"string.template",
-				"string.regexp"
+				"punctuation.definition.string.template",
+				"string.quoted.template"
+			],
+			"settings": {
+				"foreground": "#FFA07A"
+			}
+		},
+		{
+			"name": "String Interpolation",
+			"scope": [
+				"meta.template.expression",
+				"punctuation.definition.template-expression",
+				"meta.interpolation",
+				"punctuation.section.interpolation"
+			],
+			"settings": {
+				"foreground": "#98FB98"
+			}
+		},
+		{
+			"name": "Format Strings",
+			"scope": [
+				"storage.type.string.python",
+				"constant.character.format.placeholder",
+				"string.interpolated.python"
+			],
+			"settings": {
+				"foreground": "#98FB98"
+			}
+		},
+		{
+			"name": "Regular Expressions",
+			"scope": [
+				"string.regexp",
+				"punctuation.definition.string.regexp"
 			],
 			"settings": {
 				"foreground": "#FFA07A"
@@ -214,7 +256,8 @@
 				"comment.documentation"
 			],
 			"settings": {
-				"foreground": "#FFA07A"
+				"foreground": "#FFA07A",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -656,6 +699,15 @@
 		"*.unsafe": {
 			"foreground": "#FA8072",
 			"italic": true
+		},
+		"*.interpolation": {
+			"foreground": "#98FB98"
+		},
+		"*.stringLiteral": {
+			"foreground": "#FFA07A"
+		},
+		"*.templateExpression": {
+			"foreground": "#98FB98"
 		}
 	}
 }
