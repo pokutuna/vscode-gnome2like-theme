@@ -1,10 +1,16 @@
 # vscode-gnome2like-theme
 
-TODO add marketplace badge
-TODO add screenshot
+![Gnome2Like Theme](https://raw.githubusercontent.com/pokutuna/vscode-gnome2like-theme/main/images/screenshot.png)
+
 
 A VS Code color theme based on the `color-theme-gnome2` from Emacs color-theme.el package.  
-I added more colors to meet VSCode's requirements while keeping the original Gnome2 look and feel.
+I added more colors to fit VSCode's requirements while keeping the original theme look and feel.
+
+
+## Feedback & Development Status
+
+- This theme is still in active development and color definitions may be adjusted over time for better readability and language support.
+- Feedback and suggestions are welcome! Please submit your thoughts via GitHub Issues.
 
 
 ## License
