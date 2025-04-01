@@ -6,6 +6,10 @@
 A VS Code color theme based on the `color-theme-gnome2` from Emacs color-theme.el package.  
 I added more colors to fit VSCode's requirements while keeping the original theme look and feel.
 
+## Install
+
+Install this theme from the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=pokutuna.vscode-gnome2like-theme).
+
 
 ## Feedback & Development Status
 
