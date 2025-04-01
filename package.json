@@ -1,14 +1,15 @@
 {
   "name": "vscode-gnome2like-theme",
-  "displayName": "Gnome2Like Theme",
+  "displayName": "GNOME2-like Theme",
   "version": "0.0.1",
-  "description": "A color theme based on the `color-theme-gnome2` from Emacs color-theme.el package",
+  "description": "(color-theme-gnome2) from Emacs color-theme.el with tweaks for VS Code",
   "categories": [
     "Themes"
   ],
   "keywords": [
     "emacs",
-    "color-theme.el"
+    "color-theme.el",
+    "green"
   ],
   "bugs": {
     "url": "https://github.com/pokutuna/vscode-gnome2like-theme/issues"
@@ -20,12 +21,13 @@
   "license": "GPL-3.0",
   "publisher": "pokutuna",
   "scripts": {
-    "login": "vsce login pokutuna"
+    "login": "vsce login pokutuna",
+    "pack": "vsce pack"
   },
   "contributes": {
     "themes": [
       {
-        "label": "Gnome2like",
+        "label": "GNOME2-like",
         "uiTheme": "vs-dark",
         "path": "./themes/gnome2like.json"
       }
