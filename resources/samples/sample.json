@@ -1,0 +1,35 @@
+{
+  "name": "JSON Sample Data",
+  "version": "1.0.0",
+  "description": "An example structure using JSON format.",
+  "author": {
+    "name": "Roo",
+    "url": "https://example.com"
+  },
+  "settings": {
+    "theme": "dark",
+    "notifications": {
+      "email": true,
+      "sms": false
+    },
+    "itemsPerPage": 20
+  },
+  "featuresEnabled": [
+    "featureA",
+    "featureB",
+    "featureC"
+  ],
+  "dataPoints": [
+    {
+      "id": 1,
+      "value": 100,
+      "label": "Point Alpha"
+    },
+    {
+      "id": 2,
+      "value": 150,
+      "label": "Point Beta"
+    }
+  ],
+  "metadata": null
+}

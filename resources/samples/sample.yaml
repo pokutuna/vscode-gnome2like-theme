@@ -1,0 +1,21 @@
+server:
+  host: "127.0.0.1"
+  port: 8080
+  protocol: "http"
+
+database:
+  type: "postgresql"
+  connection:
+    host: "db.example.com"
+    username: "admin"
+    password: "securepassword123" # Example password
+    dbname: "production_db"
+
+features:
+  new_dashboard: true
+  user_registration: false
+  beta_program:
+    participants:
+    - user1@example.com
+    - user2@example.com
+    feedback_channel: "#beta-feedback"
