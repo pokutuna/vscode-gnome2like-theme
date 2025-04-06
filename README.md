@@ -10,12 +10,56 @@ I added more colors to fit VSCode's requirements while keeping the original them
 
 Install this theme from the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=pokutuna.vscode-gnome2like-theme).
 
-
 ## Feedback & Development Status
 
 - This theme is still in active development and color definitions may be adjusted over time for better readability and language support.
 - Feedback and suggestions are welcome! Please submit your thoughts via GitHub Issues.
 
+
+## Customization
+
+You can customize the theme colors by modifying your `settings.json`. See the [VS Code documentation](https://code.visualstudio.com/api/extension-guides/color-theme#customizing-a-color-theme) for more details.
+
+<details>
+<summary>Examples of theme customization</summary>
+
+```json
+// Modify UI element colors using `workbench.colorCustomizations`:
+"workbench.colorCustomizations": {
+  "[GNOME2-like]": {
+      "titleBar.activeBackground": "#ffff00"
+  }
+},
+
+// Customize syntax highlighting colors for specific token types using `editor.tokenColorCustomizations`:
+"editor.tokenColorCustomizations": {
+  "[GNOME2-like]": {
+      "textMateRules": [
+          {
+              "scope": [
+                  "comment"
+              ],
+              "settings": {
+                  "foreground": "#ffff00"
+              }
+          }
+      ]
+  }
+},
+
+// For languages with semantic highlighting support, customize colors using `editor.semanticTokenColorCustomizations`:
+"editor.semanticTokenColorCustomizations": {
+  "[GNOME2-like]": {
+    "enabled": true,
+    "rules": {
+      "string": {
+        "foreground": "#ffff00"
+      }
+    }
+  }
+}
+```
+</details>
 
 ## License
 
