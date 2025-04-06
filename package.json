@@ -22,7 +22,8 @@
   "publisher": "pokutuna",
   "scripts": {
     "login": "vsce login pokutuna",
-    "pack": "vsce pack"
+    "pack": "vsce pack",
+    "publish": "vsce publish"
   },
   "contributes": {
     "themes": [
