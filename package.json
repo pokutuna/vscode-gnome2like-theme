@@ -40,9 +40,9 @@
   "engines": {
     "vscode": "^1.98.0"
   },
+  "icon": "icon.png",
   "galleryBanner": {
     "color": "#2F4F4F",
     "theme": "dark"
-  },
-  "icon": "icon.png"
+  }
 }
