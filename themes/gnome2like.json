@@ -630,6 +630,17 @@
 			"settings": {
 				"foreground": "#ADD8E6"
 			}
+		}, // Add comma here
+		{
+			"name": "YAML/JSON Keys",
+			"scope": [
+				"entity.name.tag.yaml",
+				"entity.other.attribute-name.yaml",
+				"support.type.property-name.json"
+			],
+			"settings": {
+				"foreground": "#7FFFD4"
+			}
 		}
 	],
 	"semanticTokenColors": {
