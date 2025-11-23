@@ -8,6 +8,8 @@
 # 5. This workflow will automatically publish to both marketplaces
 
 name: Publish Extension
+permissions:
+  contents: read
 
 on:
   push:
