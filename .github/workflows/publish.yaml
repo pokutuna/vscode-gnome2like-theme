@@ -1,0 +1,33 @@
+# Publish Extension to VS Code Marketplace and OpenVSX Registry
+#
+# Release Instructions:
+# 1. Decide version type: major (breaking changes), minor (new features), or patch (bug fixes)
+# 2. Update CHANGELOG.md: Move [Unreleased] changes to new version section with date
+# 3. Run: npm version [major|minor|patch] (e.g., npm version patch)
+# 4. Push: git push --follow-tags
+# 5. This workflow will automatically publish to both marketplaces
+
+name: Publish Extension
+permissions:
+  contents: read
+
+on:
+  push:
+    tags:
+      - "v*"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 24
+      - run: npm ci
+      - run: npm run publish:vscode
+        env:
+          VSCE_PAT: ${{ secrets.VSCE_PAT }}
+      - run: npm run publish:ovsx
+        env:
+          OVSX_PAT: ${{ secrets.OVSX_PAT }}

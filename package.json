@@ -23,7 +23,8 @@
   "scripts": {
     "login": "vsce login pokutuna",
     "pack": "vsce pack",
-    "publish": "vsce publish"
+    "publish:vscode": "vsce publish",
+    "publish:ovsx": "ovsx publish"
   },
   "contributes": {
     "themes": [
@@ -35,8 +36,16 @@
     ]
   },
   "devDependencies": {
-    "@vscode/vsce": "^3.7.0"
+    "@vscode/vsce": "^3.7.0",
+    "ovsx": "^0.10.7"
   },
+  "files": [
+    "themes/",
+    "icon.png",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE.txt"
+  ],
   "engines": {
     "vscode": "^1.98.0"
   },
