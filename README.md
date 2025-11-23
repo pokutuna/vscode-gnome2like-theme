@@ -8,7 +8,7 @@ I added more colors to fit VSCode's requirements while keeping the original them
 
 ## Install
 
-Install this theme from the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=pokutuna.vscode-gnome2like-theme).
+Install this theme from the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=pokutuna.vscode-gnome2like-theme) / [Open VSX Registry](https://open-vsx.org/extension/pokutuna/vscode-gnome2like-theme).
 
 ## Feedback & Development Status
 
