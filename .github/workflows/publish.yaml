@@ -2,7 +2,7 @@
 #
 # Release Instructions:
 # 1. Decide version type: major (breaking changes), minor (new features), or patch (bug fixes)
-# 2. Update CHANGELOG.md: Move [Unreleased] changes to new version section with date
+# 2. Update CHANGELOG.md: Move [Unreleased] changes to new version section with date & commit it
 # 3. Run: npm version [major|minor|patch] (e.g., npm version patch)
 # 4. Push: git push --follow-tags
 # 5. This workflow will automatically publish to both marketplaces
