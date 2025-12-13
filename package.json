@@ -1,7 +1,7 @@
 {
   "name": "vscode-gnome2like-theme",
   "displayName": "GNOME2-like Theme",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "(color-theme-gnome2) from Emacs color-theme.el with tweaks for VS Code",
   "categories": [
     "Themes"
