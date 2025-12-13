@@ -630,7 +630,7 @@
 			"settings": {
 				"foreground": "#ADD8E6"
 			}
-		}, // Add comma here
+		},
 		{
 			"name": "YAML/JSON Keys",
 			"scope": [

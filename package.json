@@ -1,7 +1,7 @@
 {
   "name": "vscode-gnome2like-theme",
   "displayName": "GNOME2-like Theme",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "(color-theme-gnome2) from Emacs color-theme.el with tweaks for VS Code",
   "categories": [
     "Themes"
@@ -23,7 +23,8 @@
   "scripts": {
     "login": "vsce login pokutuna",
     "pack": "vsce pack",
-    "publish": "vsce publish"
+    "publish:vscode": "vsce publish",
+    "publish:ovsx": "ovsx publish"
   },
   "contributes": {
     "themes": [
@@ -32,11 +33,28 @@
         "uiTheme": "vs-dark",
         "path": "./themes/gnome2like.json"
       }
-    ]
+    ],
+    "configurationDefaults": {
+      "better-comments.tags": [
+        {
+          "tag": "//",
+          "color": "#8090A0",
+          "strikethrough": false
+        }
+      ]
+    }
   },
   "devDependencies": {
-    "@vscode/vsce": "latest"
+    "@vscode/vsce": "^3.7.0",
+    "ovsx": "^0.10.7"
   },
+  "files": [
+    "themes/",
+    "icon.png",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE.txt"
+  ],
   "engines": {
     "vscode": "^1.98.0"
   },
