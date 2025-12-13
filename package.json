@@ -33,7 +33,16 @@
         "uiTheme": "vs-dark",
         "path": "./themes/gnome2like.json"
       }
-    ]
+    ],
+    "configurationDefaults": {
+      "better-comments.tags": [
+        {
+          "tag": "//",
+          "color": "#8090A0",
+          "strikethrough": false
+        }
+      ]
+    }
   },
   "devDependencies": {
     "@vscode/vsce": "^3.7.0",
